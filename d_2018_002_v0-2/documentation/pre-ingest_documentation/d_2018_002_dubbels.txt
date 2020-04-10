@@ -1,0 +1,136 @@
+- 2 equal files of size 175286
+  "D:\d_2018_002\data\04\REVH.18"
+  "D:\d_2018_002\data\05\REVH.18"
+- 2 equal files of size 169791
+  "D:\d_2018_002\data\04\REVH.17"
+  "D:\d_2018_002\data\05\REVH.17"
+- 2 equal files of size 151611
+  "D:\d_2018_002\data\04\REVH.14"
+  "D:\d_2018_002\data\05\REVH.14"
+- 2 equal files of size 114352
+  "D:\d_2018_002\data\04\REVH.19"
+  "D:\d_2018_002\data\05\REVH.19"
+- 2 equal files of size 108813
+  "D:\d_2018_002\data\04\REVH.16"
+  "D:\d_2018_002\data\05\REVH.16"
+- 2 equal files of size 103893
+  "D:\d_2018_002\data\04\REVH.20"
+  "D:\d_2018_002\data\05\REVH.20"
+- 2 equal files of size 100459
+  "D:\d_2018_002\data\04\REVH.21"
+  "D:\d_2018_002\data\05\REVH.21"
+- 2 equal files of size 75627
+  "D:\d_2018_002\data\04\REVH.15"
+  "D:\d_2018_002\data\05\REVH.15"
+- 2 equal files of size 65720
+  "D:\d_2018_002\data\04\REVH.24"
+  "D:\d_2018_002\data\05\REVH.24"
+- 2 equal files of size 60261
+  "D:\d_2018_002\data\04\REVH.25"
+  "D:\d_2018_002\data\05\REVH.25"
+- 2 equal files of size 59634
+  "D:\d_2018_002\data\04\REVH.26"
+  "D:\d_2018_002\data\05\REVH.26"
+- 2 equal files of size 58662
+  "D:\d_2018_002\data\04\REVH.27"
+  "D:\d_2018_002\data\05\REVH.27"
+- 2 equal files of size 56336
+  "D:\d_2018_002\data\04\REVH.22"
+  "D:\d_2018_002\data\05\REVH.22"
+- 2 equal files of size 48136
+  "D:\d_2018_002\data\04\REVH.23"
+  "D:\d_2018_002\data\05\REVH.23"
+- 2 equal files of size 45056
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_01_0.BUP"
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_01_0.IFO"
+- 2 equal files of size 45056
+  "D:\d_2018_002\data\08\VIDEO_TS\VTS_01_0.BUP"
+  "D:\d_2018_002\data\08\VIDEO_TS\VTS_01_0.IFO"
+- 2 equal files of size 28672
+  "D:\d_2018_002\data\09\VIDEO_TS\VTS_01_0.BUP"
+  "D:\d_2018_002\data\09\VIDEO_TS\VTS_01_0.IFO"
+- 2 equal files of size 18432
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_02_0.BUP"
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_02_0.IFO"
+- 2 equal files of size 18432
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_03_0.BUP"
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_03_0.IFO"
+- 2 equal files of size 18432
+  "D:\d_2018_002\data\08\VIDEO_TS\VTS_02_0.BUP"
+  "D:\d_2018_002\data\08\VIDEO_TS\VTS_02_0.IFO"
+- 2 equal files of size 16384
+  "D:\d_2018_002\data\07\VIDEO_TS\VIDEO_TS.BUP"
+  "D:\d_2018_002\data\07\VIDEO_TS\VIDEO_TS.IFO"
+- 2 equal files of size 14336
+  "D:\d_2018_002\data\08\VIDEO_TS\VIDEO_TS.BUP"
+  "D:\d_2018_002\data\08\VIDEO_TS\VIDEO_TS.IFO"
+- 2 equal files of size 14336
+  "D:\d_2018_002\data\09\VIDEO_TS\VIDEO_TS.BUP"
+  "D:\d_2018_002\data\09\VIDEO_TS\VIDEO_TS.IFO"
+- 2 equal files of size 12288
+  "D:\d_2018_002\data\20\VIDEO_TS\VIDEO_TS.BUP"
+  "D:\d_2018_002\data\20\VIDEO_TS\VIDEO_TS.IFO"
+- 3 equal files of size 10240
+  "D:\d_2018_002\data\07\VIDEO_TS\VIDEO_TS.VOB"
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_02_0.VOB"
+  "D:\d_2018_002\data\07\VIDEO_TS\VTS_03_0.VOB"
+- 2 equal files of size 10240
+  "D:\d_2018_002\data\08\VIDEO_TS\VIDEO_TS.VOB"
+  "D:\d_2018_002\data\08\VIDEO_TS\VTS_02_0.VOB"
+- 2 equal files of size 2032
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\AngleF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\AngleU.bmp"
+- 2 equal files of size 2032
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\AudioF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\AudioU.bmp"
+- 2 equal files of size 2032
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\BookmarkF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\BookmarkU.bmp"
+- 2 equal files of size 1760
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\PAUSEF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\PAUSEU.bmp"
+- 2 equal files of size 1696
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\ResumeF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\ResumeU.bmp"
+- 2 equal files of size 1696
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Select_UpF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Select_UpU.bmp"
+- 2 equal files of size 1652
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Next_ChapterF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Next_ChapterU.bmp"
+- 2 equal files of size 1560
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\WEBF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\WEBU.bmp"
+- 2 equal files of size 1478
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Full_ScreenF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Full_ScreenU.bmp"
+- 2 equal files of size 1460
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\EjectF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\EjectU.bmp"
+- 2 equal files of size 1460
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Power_OffF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Power_OffU.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_0F.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_0U.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_3F.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_3U.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_4F.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_4U.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_5F.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_5U.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_CancelF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_CancelU.bmp"
+- 2 equal files of size 1336
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_SelectF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Key_SelectU.bmp"
+- 2 equal files of size 1234
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\HelpF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\HelpU.bmp"
+- 2 equal files of size 1212
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Background_ToggleF.bmp"
+  "D:\d_2018_002\data\20\intervideo\windvd\Skins\WinDVD2\Background_ToggleU.bmp"

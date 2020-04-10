@@ -1,0 +1,30 @@
+Thu, 15 Nov 2018 11:35:05 GMT	Searching empty directories...
+Thu, 15 Nov 2018 11:35:05 GMT	Found 25 empty directories (checked 47 / runtime: 00:00 min)
+
+Thu, 15 Nov 2018 11:35:08 GMT	Started deletion process...
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\09\AUDIO_TS"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\10"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\11"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\12"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\13"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\14"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\15"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\16"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\17"
+Thu, 15 Nov 2018 11:35:08 GMT	Successfully deleted dir "D:\d_2018_002\data\20\AUDIO_TS"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\21"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\22"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\23"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\24"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\25"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\26"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\27"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\28"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\29"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\30"
+Thu, 15 Nov 2018 11:35:09 GMT	Successfully deleted dir "D:\d_2018_002\data\31"
+Thu, 15 Nov 2018 11:35:10 GMT	Successfully deleted dir "D:\d_2018_002\data\32"
+Thu, 15 Nov 2018 11:35:10 GMT	Successfully deleted dir "D:\d_2018_002\data\33"
+Thu, 15 Nov 2018 11:35:10 GMT	Successfully deleted dir "D:\d_2018_002\data\34"
+Thu, 15 Nov 2018 11:35:10 GMT	Successfully deleted dir "D:\d_2018_002\data\35"
+Thu, 15 Nov 2018 11:35:10 GMT	Deleted 25 empty directories (failed to delete: 0 dirs / runtime: 00:02 min)

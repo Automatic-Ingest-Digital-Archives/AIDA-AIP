@@ -1,0 +1,7 @@
+Report from the charfind.py script
+----------------------------------
+
+Characters automatically replaced by UGent SIP creator:  !'()+\
+Keyboard characters to be manually replaced with UGent SIP creator: ,-.аб
+Special characters to be manually replaced with UGent SIP creator: 
+
