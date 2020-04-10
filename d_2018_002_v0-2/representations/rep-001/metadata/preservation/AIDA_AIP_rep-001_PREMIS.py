@@ -1,20 +1,29 @@
-# AIDA - AIP - rep-001 PREMIS
 # Ik ga uit van 2 doc-files in de map "01" van Maartens voorbeeld AIP
-# Vragen voor dit document:
-	# Het is verplicht een event te linken aan een object. Omgekeerd is dat niet. Doen wij dat toch? Ik raad af van niet?
+
+# Deze representatie is het resultaat van snel-en-veel-pipeline:
+	# Viruscontrole
+	# Fixity gecheckt
+	# Bestandsnamen sanitized
+	# Bestandsformaten geïdentificeerd
+
+# Opmerkingen voor dit document:
+	# Het is verplicht een event te linken aan een object. Omgekeerd is dat niet. Doen wij dat toch? Ik raad af van niet.
 	# Gebruiken we xmlid's. Ze maken het mogelijk om vanuit XML's te linken naar elementen in andere XML's. Ik denk dat dit handig is.
 	# Het gemakkelijkst automatiseerbaar is overal UUID's te gebruiken. We moeten sowieso UUID's gebruiken voor de objecten. Via die UUID's leggen we de linken tussen de files in de METS-fileSec en de objecten in deze PREMIS.
 
-
 premis_eventtypes : http://id.loc.gov/vocabulary/preservation/eventType.html # Controlled vocabulary
 premis_agenttypes: http://id.loc.gov/vocabulary/preservation/agentType.html # Controlled vocabulary
+premis_relationshiptypes: http://id.loc.gov/vocabulary/preservation/relationshipType.html # Controlled vocabulary
+premis_relationshipsubtypes: http://id.loc.gov/vocabulary/preservation/relationshipSubType.html # Controlled vocabulary
 
-#Hier beschrijvingen voor agents die we nodig zullen hebben tijdens ingest. Ik werk agent-4, de bagit-module voor checksumvariatie verder uit.
+#Hier beschrijvingen voor agents die we nodig zullen hebben tijdens ingest in de snel-en-veel pipeline. Het gaat hier om de software die wordt gebruikt.
+
+# Een element dat wordt voorafgegaan door "@" is een attribuut in de XML
 
 premis : "allerlei attributen die horen bij dit headerelement" # Al wat volgt is een child element van dit element
 
 agent :
-	xmlid: "xml-agent-1" # alle xmlid's zijn attributes in ieder agent-, object- of event-element. Kunnen ook UUID's zijn.
+	@xmlid: "xml-agent-1" # alle xmlid's zijn attributes in ieder agent-, object- of event-element. Kunnen ook UUID's zijn.
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-1" # Kunnen ook UUID's zijn.
@@ -23,7 +32,7 @@ agent :
 	agentVersion : "2019-05-03" # Version kan een officieel nummer zijn, maar ook de datum van issue.
 	
 agent :
-	xmlid: "xml-agent-2"
+	@xmlid: "xml-agent-2"
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-2"
@@ -32,7 +41,7 @@ agent :
 	agentVersion : "1.2"
 	
 agent :
-	xmlid: "xml-agent-3"
+	@xmlid: "xml-agent-3"
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-3"
@@ -41,7 +50,7 @@ agent :
 	agentVersion : "3.2"
 	
 agent :
-	xmlid: "xml-agent-4"
+	@xmlid: "xml-agent-4"
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-4"
@@ -50,7 +59,7 @@ agent :
 	agentVersion : "4.1"
 	
 agent :
-	xmlid: "xml-agent-5"
+	@xmlid: "xml-agent-5"
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-5"
@@ -59,7 +68,7 @@ agent :
 	agentVersion : "6.2"
 	
 agent :
-	xmlid: "xml-agent-6"
+	@xmlid: "xml-agent-6"
 	agentIdentifier :
 		agentIdentifierType : "local"
 		agentIdentifierValue : "agent-6"
@@ -69,7 +78,7 @@ agent :
 # Er zijn events die op niveau van de representatie worden geregistreerd. (De representatie is ook een object in PREMIS). Bv. ingest, sanitize names, checksumcontrole, viruscontrole... Ik toon hier ingest en checksumcontrole
 
 event :
-	xmlid: "xml-event-1"
+	@xmlid: "xml-event-1"
 	eventIdentifier :
 		eventIdentifierType : "local"
 		eventIdentifierValue : "event-1"
@@ -88,7 +97,7 @@ event :
 		objectIdentifierValue : "een zot UUID 1" # Het object dat de volledige representatie "representeert"
 
 event :
-	xmlid : "xml-event-2"
+	@xmlid : "xml-event-2"
 	eventIdentifier :
 		eventIdentifierType : "local"
 		eventIdentifierValue : "event-2"
@@ -109,7 +118,7 @@ event :
 # Niet alle events wil je registreren op representatieniveau, omdat ze info genereren die specifiek zijn voor een file. File-identification is er één van. Als er ooit een nieuwe versie van DROID of Siegfried ontstaat, kan er een nieuwe identificatie zijn. Deze nieuwe waarde schrijf je dus toe aan een nieuw identificatie-event.	
 
 event :
-	xmlid: "xml-event-3"
+	@xmlid: "xml-event-3"
 	eventIdentifier :
 		eventIdentifierType : "local"
 		eventIdentifierValue : "event-3"
@@ -129,7 +138,7 @@ event :
 		relatedEventIdentifierValue : "event-1" # Zijnde event "ingest". Wordt iets gedaan tijdens een tweede ingest of een re-ingest, wordt dit zo gedocumenteerd
 		
 event :
-	xmlid: "xml-event-4"
+	@xmlid: "xml-event-4"
 	eventIdentifier :
 		eventIdentifierType : "local"
 		eventIdentifierValue : "event-4"
@@ -147,17 +156,17 @@ event :
 		relatedEventIdentifierType : "local"
 		relatedEventIdentifierValue : "event-1" # Zijnde event "ingest". Wordt iets gedaan tijdens een tweede ingest of een re-ingest, wordt dit zo gedocumenteerd		
 
-# Hier komen de drie objecten. Object-1 is de representatie. De twee andere objecten zijn de files.
+# Hier komen de drie objecten. De representatie en de twee tekstverwerkingsdocumenten
 
-object :
-	xmlid : "een zot UUID 7" # Dit object bestaat enkel in de PREMIS, niet in de METS.
+object : # Het representatieobject
+	@xmlid : "een zot UUID 7" # Bekijken of dit UUID ergens terugkomt in de representation-METS (Bv. in de structMap). In principe is dit niet nodig.
 	objectIdentifier:
 		objectIdentifierType : "repository"
 		eventIdentifierValue : "een zot UUID 7"
 	objectCategory : "representation"	
 
-object :
-	xmlid : "een zot UUID 5" # Deze UUID vind je ook in de rep-001-METS.
+object : # Eén worddocument
+	@xmlid : "een zot UUID 5" # Deze UUID vind je ook in de fileSec rep-001-METS.
 	objectIdentifier:
 		objectIdentifierType : "repository"
 		eventIdentifierValue : "een zot UUID 5"
@@ -166,7 +175,7 @@ object :
 		fixity:
 			messageDigestAlgorithm : "SHA-256"
 			messageDigest : "een hash"
-			messageDigestOriginator : "VAi" # Idee is om tijdens ingest checksums te checken. Niet om ze te maken. Hier geef je aan wie de oorspronkelijke checksum genereerde.
+			messageDigestOriginator : "Amsab-ISG" # Idee is om tijdens ingest checksums te checken. Niet om ze te maken. Hier geef je aan wie de oorspronkelijke checksum genereerde.
 		size: "2038937"
 		format:
 			formatDesignation :
@@ -182,9 +191,16 @@ object :
 		contentLocation :
 			contentLocationType: "URI"
 			contentLocationValue: "./data/01/spaties_en_apostroph-s.doc" # Mogelijk kiezen we voor platte lijst. Dan verliezen we de "01"
-
-object :
-	xmlid : "een zot UUID 6" # Deze UUID vind je ook in de rep-001-METS.
+	relationship: # Hier gaan we een relatie definiëren met de representatie. Als we bv. een nieuwe fixity check doen op de volledige representatie, dan weten we dat dit ook voor dit file gold. Het event registreren we dan enkel bij de representatie = lichtere PREMIS.
+		relationshipType: "structural"
+		relationshipSubType: "is Included In" # Een specificatie van een structurele relatie. Gebruik deze term om te zeggen dat een file deel uitmaakt van een representatie.
+		relatedObjectIdentifier:
+			relatedObjectIdentifierType: "repository"
+			relatedObjectIdentifierValue: "een zot UUID 7" # Het ID van de representatie
+			# Puur ter info. Stel je hebt 3 video's van 1 interview, dan is er een element ter beschikking waarmee je de volgorde van de video's kunt aangeven.
+				
+object : # Een tweede Worddocument
+	@xmlid : "een zot UUID 6" # Deze UUID vind je ook in de rep-001-METS, in de fileSec
 	objectIdentifier:
 		objectIdentifierType : "repository"
 		eventIdentifierValue : "een zot UUID 6"
@@ -193,7 +209,7 @@ object :
 		fixity:
 			messageDigestAlgorithm : "SHA-256"
 			messageDigest : "een hash"
-			messageDigestOriginator : "VAi"
+			messageDigestOriginator : "Amsab-ISG"
 		size : "983028839"
 		format:
 			formatDesignation :
@@ -208,5 +224,10 @@ object :
 		contentLocation :
 			contentLocationType: "URI"
 			contentLocationValue: "./data/01/spaties_en_trema-s.doc" # Mogelijk kiezen we voor platte lijst. Dan verliezen we de "01". Die vind je dan terug bij "originalName"
-		
+	relationship:
+		relationshipType: "structural"
+		relationshipSubType: "is Included In"
+		relatedObjectIdentifier:
+			relatedObjectIdentifierType: "repository"
+			relatedObjectIdentifierValue: "een zot UUID 7"	
 	
